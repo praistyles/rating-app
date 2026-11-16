@@ -1,16 +1,68 @@
-# React + Vite
+# Frontend Mentor - Interactive rating component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my solution to the [Interactive rating component challenge](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI) on Frontend Mentor.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The app lets a visitor choose a rating from 1 to 5 and submit it to see a thank-you message showing their selection. The layout adapts to smaller screens.
 
-## React Compiler
+### Links
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Challenge: [Interactive rating component](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
+- Solution code: [GitHub repository](https://github.com/praistyles/rating-app)
+- Live site: [https://praistyles.github.io/rating-app/](https://praistyles.github.io/rating-app/)
 
-## Expanding the ESLint configuration
+### Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Select one of five ratings and submit it.
+- See a confirmation state with the selected rating.
+- Use the rating controls with a keyboard.
+- Get visible keyboard focus and reduced-motion support.
+- View the component on desktop and mobile screens.
+
+## Built with
+
+- React
+- Vite
+- CSS custom properties
+- CSS Grid
+- Responsive CSS
+- Accessible button states and labels
+
+## Running locally
+
+From this directory, install dependencies and start the development server:
+
+```sh
+npm install
+npm run dev
+```
+
+To check the code and create a production build:
+
+```sh
+npm run lint
+npm run build
+```
+
+The project is configured for GitHub Pages. To deploy, run:
+
+```sh
+npm run deploy
+```
+
+## What I learned
+
+- Managing a selected value with React state and passing it to child components.
+- Showing a different screen after a user submits a choice.
+- Using `aria-pressed` to communicate which rating is selected.
+- Adding clear focus styles so keyboard users can see which control is active.
+
+## Acknowledgments
+
+Thanks to Frontend Mentor for providing the challenge and design files.
+
+## Author
+
+- Frontend Mentor - [@praistyles](https://www.frontendmentor.io/profile/praistyles)
+- GitHub - [@praistyles](https://github.com/praistyles)
