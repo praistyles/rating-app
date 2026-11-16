@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+:root {
+  --clr-primary-100: hsl(25, 97%, 53%);
+  --clr-primary-200: hsl(217, 12%, 63%);
+  --clr-primary-300: hsl(216, 12%, 54%);
+  --clr-primary-400: hsl(213, 19%, 18%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-200: hsl(0, 0%, 98%);
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--clr-neutral-100);
+  background-color: hsl(213, 22%, 10%);
+}
+

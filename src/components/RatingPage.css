@@ -1,0 +1,56 @@
+.rating-page {
+    background-color: var(--clr-primary-400);
+    color: var(--clr-neutral-100);
+    max-width: 400px;
+    margin: 5rem 1rem;
+    padding: 1rem;
+
+    
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--clr-primary-200);
+}
+
+
+
+.rating-buttons button {
+    background-color: hsl(214, 19%, 24%);
+    color: var(--clr-neutral-100);
+    border: none;
+    border-radius: 50%;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+}
+
+button {
+    background-color: var(--clr-primary-100);
+    color: var(--clr-neutral-100);
+    border: none;
+
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.rate-icon {
+    background-color: var(--clr-primary-300);
+    color: var(--clr-neutral-100);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
